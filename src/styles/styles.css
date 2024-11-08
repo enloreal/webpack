@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Caveat";
+    src: url('/src/fonts/Caveat-Bold.ttf') format('truetype');
+    font-style: normal;
+  }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+}
+
+.text {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: "Caveat", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://freesvg.org/img/1541571410.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+  
+.image {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
